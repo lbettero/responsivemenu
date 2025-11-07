@@ -1,16 +1,57 @@
-:root{
-  --brand-navy:#1E2C47;
-  --brand-teal:#0A89A8;
-  --brand-teal-dark:#087691;
-  --brand-light:#FFFFFF;
+:root {
+  --brand-navy: #1E2C47;
+  --brand-teal: #1b9ab9;
+  --brand-teal-dark: #087691;
+  --brand-light: #FFFFFF;
 }
 
-.bg-brand-navy{ background-color: var(--brand-navy); }
-.bg-brand-light{ background-color: var(--brand-light); }
-.text-brand-teal{ color: var(--brand-teal); }
-.link-brand{ color: var(--brand-teal); }
-.link-brand:hover{ color: var(--brand-teal-dark); }
-.border-brand-teal{ border-color: var(--brand-teal); }
+/* Paleta base */
+.bg-brand-navy { background-color: var(--brand-navy); }
+.bg-brand-light { background-color: var(--brand-light); }
+.text-brand-teal { color: var(--brand-teal); }
+.link-brand { color: var(--brand-teal); }
+.link-brand:hover { color: var(--brand-teal-dark); }
+.border-brand-teal { border-color: var(--brand-teal); }
 
-body{ background-color: var(--brand-light); color:var(--brand-navy); }
-header,footer{ background-color: var(--brand-navy); color:var(--brand-light); }
+/* Cuerpo y texto */
+body {
+  background-color: var(--brand-light);
+  color: var(--brand-navy);
+}
+
+/* Encabezado y footer con texto claro */
+header,
+footer {
+  color: var(--brand-light);
+}
+
+/* Header (faixa superior azul) */
+header {
+  background-color: var(--brand-navy);
+  color: var(--brand-light);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Menu (faixa branca separada) */
+nav {
+  background-color: rgba(255, 255, 255, 0.9); /* branco translúcido opcional */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: none;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  color: var(--brand-navy);
+}
+
+/* Links do menu */
+nav a {
+  color: var(--brand-navy);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--brand-teal-dark);
+}

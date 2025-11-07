@@ -16,8 +16,17 @@
           { "title": "Vibración", "url": "#" }
         ]
       },
-      { "title": "Alarmas activas", "url": "#" },
-      { "title": "Rendimiento en tiempo real", "url": "#" }
+      {
+        "title": "Alarmas activas",
+        "children": [
+          { "title": "Alarmas por temperatura", "url": "#" },
+          { "title": "Alarmas por presión", "url": "#" },
+          { "title": "Alarmas por vibración", "url": "#" },
+          { "title": "Alarmas por criticidad", "url": "#" }
+        ]
+      },
+      { "title": "Rendimiento en tiempo real", "url": "#" },
+      { "title": "Histórico de rendimiento", "url": "#" }
     ]
   },
   {
@@ -36,7 +45,7 @@
         "children": [
           { "title": "Fabricante X", "url": "#" },
           { "title": "Fabricante Y", "url": "#" },
-          { "title": "Fabricante X", "url": "#" }
+          { "title": "Fabricante Z", "url": "#" }
         ]
       },
       {
@@ -48,14 +57,61 @@
           { "title": "Serie JKL", "url": "#" },
           { "title": "Serie MNO", "url": "#" }
         ]
+      },
+      {
+        "title": "Por flota",
+        "children": [
+          { "title": "Flota A", "url": "#" },
+          { "title": "Flota B", "url": "#" },
+          { "title": "Flota C", "url": "#" }
+        ]
+      },
+      {
+        "title": "Por estado operativo",
+        "children": [
+          { "title": "Activos", "url": "#" },
+          { "title": "En mantenimiento", "url": "#" },
+          { "title": "Fuera de servicio", "url": "#" }
+        ]
+      },
+      {
+        "title": "Por ubicación física",
+        "children": [
+          { "title": "Planta norte", "url": "#" },
+          { "title": "Planta sur", "url": "#" },
+          { "title": "Planta central", "url": "#" }
+        ]
+      },
+      {
+        "title": "Historial de mantenimiento",
+        "children": [
+          { "title": "Últimas intervenciones", "url": "#" },
+          { "title": "Próximas revisiones", "url": "#" },
+          { "title": "Repuestos utilizados", "url": "#" }
+        ]
       }
     ]
   },
   {
     "title": "Reportes",
     "children": [
-      { "title": "Generar informe", "url": "#" },
+      {
+        "title": "Generar informe",
+        "children": [
+          { "title": "Informe diario", "url": "#" },
+          { "title": "Informe semanal", "url": "#" },
+          { "title": "Informe mensual", "url": "#" }
+        ]
+      },
       { "title": "Historial de reportes", "url": "#" },
+      {
+        "title": "Reportes personalizados",
+        "children": [
+          { "title": "Por equipo", "url": "#" },
+          { "title": "Por usuario", "url": "#" },
+          { "title": "Por período", "url": "#" }
+        ]
+      },
       {
         "title": "Exportar datos",
         "children": [
@@ -63,35 +119,138 @@
           { "title": "PDF", "url": "#" },
           { "title": "Excel", "url": "#" }
         ]
-      }
+      },
+      {
+        "title": "Reportes automáticos",
+        "children": [
+          { "title": "Programación de envío", "url": "#" },
+          { "title": "Destinatarios", "url": "#" }
+        ]
+      },
+      { "title": "Plantillas de informe", "url": "#" }
     ]
   },
   {
     "title": "Estadísticas",
     "children": [
       {
-        "title": "Indicadores de rendimiento",
+        "title": "Rendimiento de equipos",
         "children": [
-          { "title": "Productividad", "url": "#" },
-          { "title": "Disponibilidad", "url": "#" },
-          { "title": "Eficiencia", "url": "#" }
+          { "title": "Eficiencia energética", "url": "#" },
+          { "title": "Tiempos de operación", "url": "#" },
+          { "title": "Paradas no programadas", "url": "#" }
         ]
       },
-      { "title": "Comparativas históricas", "url": "#" },
-      { "title": "Análisis predictivo", "url": "#" }
+      {
+        "title": "Disponibilidad del sistema",
+        "children": [
+          { "title": "Por unidad", "url": "#" },
+          { "title": "Por zona o planta", "url": "#" },
+          { "title": "Promedios generales", "url": "#" }
+        ]
+      },
+      {
+        "title": "Mantenimiento predictivo",
+        "children": [
+          { "title": "Frecuencia de fallos", "url": "#" },
+          { "title": "Vida útil estimada", "url": "#" },
+          { "title": "Alertas de mantenimiento", "url": "#" }
+        ]
+      },
+      {
+        "title": "Estadísticas de integración",
+        "children": [
+          { "title": "Estado de conexión de sensores", "url": "#" },
+          { "title": "Sincronización de datos", "url": "#" },
+          { "title": "Errores de comunicación", "url": "#" }
+        ]
+      },
+      {
+        "title": "Comparativas de flotas",
+        "children": [
+          { "title": "Rendimiento entre unidades", "url": "#" },
+          { "title": "Consumo total", "url": "#" },
+          { "title": "Desviaciones operativas", "url": "#" }
+        ]
+      },
+      {
+        "title": "Análisis de eficiencia global",
+        "children": [
+          { "title": "Pérdidas de rendimiento", "url": "#" },
+          { "title": "Factores externos", "url": "#" },
+          { "title": "Mejora continua", "url": "#" }
+        ]
+      }
     ]
   },
   {
     "title": "Usuarios",
     "children": [
-      { "title": "Gestión de usuarios", "url": "#" },
+      { "title": "Listar usuarios", "url": "#" },
+      { "title": "Gestionar usuarios", "url": "#" },
+      { "title": "Nuevo usuario", "url": "#" },
+      { "title": "Nuevo grupo de usuarios", "url": "#" },
+      { "title": "Gestionar grupos de usuarios", "url": "#" },
       { "title": "Roles y permisos", "url": "#" }
     ]
   },
   {
     "title": "Configuraciones",
     "children": [
-      { "title": "Parámetros del sistema", "url": "#" },
+      {
+        "title": "Parámetros del sistema",
+        "children": [
+          {
+            "title": "Conectividad",
+            "children": [
+              { "title": "Servidores y endpoints", "url": "#" },
+              { "title": "Claves o tokens de acceso", "url": "#" },
+              { "title": "Intervalos de actualización de datos", "url": "#" }
+            ]
+          },
+          {
+            "title": "Gestión de logs",
+            "children": [
+              { "title": "Registro de eventos del sistema", "url": "#" },
+              { "title": "Nivel de detalle (info, advertencia, error)", "url": "#" }
+            ]
+          },
+          {
+            "title": "Sincronización de datos",
+            "children": [
+              { "title": "Frecuencia de sincronización con dispositivos", "url": "#" },
+              { "title": "Retrasos permitidos en transmisión", "url": "#" },
+              { "title": "Reintentos automáticos de conexión", "url": "#" }
+            ]
+          },
+          {
+            "title": "Notificaciones del sistema",
+            "children": [
+              { "title": "Configurar notificaciones", "url": "#" },
+              { "title": "Ver notificaciones", "url": "#" },
+              { "title": "Notificaciones administrativas", "url": "#" },
+              { "title": "Historial de notificaciones", "url": "#" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Integraciones",
+        "children": [
+          { "title": "Importar datos desde otros sistemas", "url": "#" },
+          { "title": "Enviar datos a sistemas externos", "url": "#" },
+          { "title": "Revisar historial de integraciones", "url": "#" },
+          { "title": "Configurar credenciales o endpoints", "url": "#" }
+        ]
+      },
+      {
+        "title": "Parada de módulos",
+        "children": [
+          { "title": "Agendar mantenimiento de módulo", "url": "#" },
+          { "title": "Suspender módulo temporalmente", "url": "#" },
+          { "title": "Reactivar módulo", "url": "#" }
+        ]
+      },
       {
         "title": "Alarmas y notificaciones",
         "children": [
@@ -127,9 +286,46 @@
   {
     "title": "Soporte",
     "children": [
-      { "title": "Documentación técnica", "url": "#" },
-      { "title": "Contacto", "url": "#" },
-      { "title": "Centro de ayuda", "url": "#" }
+      {
+        "title": "Centro de ayuda",
+        "children": [
+          { "title": "Preguntas frecuentes (FAQ)", "url": "#" },
+          { "title": "Guías paso a paso", "url": "#" },
+          { "title": "Solución de problemas comunes", "url": "#" }
+        ]
+      },
+      {
+        "title": "Documentación técnica",
+        "children": [
+          { "title": "Manual del sistema", "url": "#" },
+          { "title": "Especificaciones de API", "url": "#" },
+          { "title": "Registro de versiones (changelog)", "url": "#" }
+        ]
+      },
+      {
+        "title": "Contacto y asistencia",
+        "children": [
+          { "title": "Enviar solicitud de soporte", "url": "#" },
+          { "title": "Chat con soporte técnico", "url": "#" },
+          { "title": "Seguimiento de tickets", "url": "#" }
+        ]
+      },
+      {
+        "title": "Actualizaciones del sistema",
+        "children": [
+          { "title": "Notas de actualización", "url": "#" },
+          { "title": "Historial de versiones", "url": "#" },
+          { "title": "Estado del servidor", "url": "#" }
+        ]
+      },
+      {
+        "title": "Asistente virtual",
+        "children": [
+          { "title": "Consultar información técnica", "url": "#" },
+          { "title": "Obtener ayuda inmediata", "url": "#" },
+          { "title": "Derivar casos al soporte humano", "url": "#" }
+        ]
+      }
     ]
   },
   {
