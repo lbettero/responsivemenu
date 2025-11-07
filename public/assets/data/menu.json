@@ -1,0 +1,139 @@
+[
+  {
+    "title": "Panel Principal",
+    "url": "#"
+  },
+  {
+    "title": "Monitoreo",
+    "children": [
+      { "title": "Visión global", "url": "#" },
+      { "title": "Mapa de flota", "url": "#" },
+      {
+        "title": "Estado general de sensores",
+        "children": [
+          { "title": "Temperatura", "url": "#" },
+          { "title": "Presión", "url": "#" },
+          { "title": "Vibración", "url": "#" }
+        ]
+      },
+      { "title": "Alarmas activas", "url": "#" },
+      { "title": "Rendimiento en tiempo real", "url": "#" }
+    ]
+  },
+  {
+    "title": "Equipos",
+    "children": [
+      {
+        "title": "Por tipo",
+        "children": [
+          { "title": "Motores", "url": "#" },
+          { "title": "Sensores", "url": "#" },
+          { "title": "Controladores", "url": "#" }
+        ]
+      },
+      {
+        "title": "Por fabricante",
+        "children": [
+          { "title": "Fabricante X", "url": "#" },
+          { "title": "Fabricante Y", "url": "#" },
+          { "title": "Fabricante X", "url": "#" }
+        ]
+      },
+      {
+        "title": "Por modelo",
+        "children": [
+          { "title": "Serie ABC", "url": "#" },
+          { "title": "Serie DEF", "url": "#" },
+          { "title": "Serie GHI", "url": "#" },
+          { "title": "Serie JKL", "url": "#" },
+          { "title": "Serie MNO", "url": "#" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Reportes",
+    "children": [
+      { "title": "Generar informe", "url": "#" },
+      { "title": "Historial de reportes", "url": "#" },
+      {
+        "title": "Exportar datos",
+        "children": [
+          { "title": "CSV", "url": "#" },
+          { "title": "PDF", "url": "#" },
+          { "title": "Excel", "url": "#" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Estadísticas",
+    "children": [
+      {
+        "title": "Indicadores de rendimiento",
+        "children": [
+          { "title": "Productividad", "url": "#" },
+          { "title": "Disponibilidad", "url": "#" },
+          { "title": "Eficiencia", "url": "#" }
+        ]
+      },
+      { "title": "Comparativas históricas", "url": "#" },
+      { "title": "Análisis predictivo", "url": "#" }
+    ]
+  },
+  {
+    "title": "Usuarios",
+    "children": [
+      { "title": "Gestión de usuarios", "url": "#" },
+      { "title": "Roles y permisos", "url": "#" }
+    ]
+  },
+  {
+    "title": "Configuraciones",
+    "children": [
+      { "title": "Parámetros del sistema", "url": "#" },
+      {
+        "title": "Alarmas y notificaciones",
+        "children": [
+          { "title": "Umbrales de alarma", "url": "#" },
+          { "title": "Tipos de notificación", "url": "#" },
+          { "title": "Contactos de alerta", "url": "#" }
+        ]
+      },
+      {
+        "title": "Preferencias de interfaz",
+        "children": [
+          { "title": "Tema visual", "url": "#" },
+          { "title": "Privacidad", "url": "#" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Registros del Sistema",
+    "children": [
+      { "title": "Eventos recientes", "url": "#" },
+      { "title": "Errores y alertas", "url": "#" },
+      {
+        "title": "Auditoría",
+        "children": [
+          { "title": "Accesos de usuario", "url": "#" },
+          { "title": "Cambios de configuración", "url": "#" },
+          { "title": "Operaciones críticas", "url": "#" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Soporte",
+    "children": [
+      { "title": "Documentación técnica", "url": "#" },
+      { "title": "Contacto", "url": "#" },
+      { "title": "Centro de ayuda", "url": "#" }
+    ]
+  },
+  {
+    "title": "Cerrar sesión",
+    "url": "#"
+  }
+]
