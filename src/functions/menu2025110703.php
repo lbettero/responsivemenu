@@ -26,16 +26,16 @@
 
         // 1) <ul> base: en nivel 0 permitimos wrap y separaciones en X/Y
         $ulClass = $depth === 0
-            ? 'flex flex-wrap justify-center items-center gap-x-1 gap-y-2'
+            ? 'flex flex-wrap items-center gap-x-2 gap-y-1' // <- antes: 'flex items-center gap-2'
             : 'absolute z-20 min-w-52 rounded-lg border bg-white/95 shadow-lg backdrop-blur text-sm p-2';
 
         // 2) Posición submenu
         if ($depth === 0) {
             $position = '';
         } elseif ($depth === 1) {
-            $position = 'mt-1 ml-1';
+            $position = 'mt-1';
         } else {
-            $position = 'top-0 left-full -ml-10';
+            $position = 'top-0 left-full ml-1';
         }
 
         echo "<ul class=\"$ulClass $position\">\n";
@@ -48,7 +48,7 @@
 
             // 3) Clase por-li en nivel 0 para forzar 8 (xl) / 7 (lg) por fila
             //    Nota: Tailwind permite valores arbitrarios con brackets.
-            $liClassTop = 'relative basis-auto shrink-0 lg:basis-1/6 xl:basis-1/6 text-center';
+            $liClassTop = 'relative lg:basis-[14.2857%] lg:max-w-[14.2857%] xl:basis-[12.5%] xl:max-w-[12.5%] shrink-0';
 
             // Padding por nivel
             $pad = $depth === 0 ? 'px-3 py-2' : 'px-2 py-1.5';

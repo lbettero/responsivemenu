@@ -1,4 +1,4 @@
-# Proyecto Coterena — Menú Dinámico (Prueba Técnica)  
+# Proyecto Menú Dinámico (Prueba Técnica)  
 **Versión:** `v1.0.0` — *Primera versión estable*
 
 Este proyecto tiene como objetivo desarrollar una página web **dinámica y responsiva** en **PHP + TailwindCSS**, con un **menú principal de hasta tres niveles**, cargado automáticamente desde un archivo `JSON`.
