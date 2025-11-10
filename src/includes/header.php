@@ -8,7 +8,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title><?= htmlspecialchars($page_title ?? 'Proyecto Coterena - Menú dinámico') ?></title>
+	<title><?= htmlspecialchars($page_title ?? 'Proyecto - Menú dinámico') ?></title>
 
 	<!-- ===== Archivos JavaScript principales ===== -->
 
@@ -36,7 +36,7 @@
 	<!-- ====================== ENCABEZADO PRINCIPAL ====================== -->
 	<header class="sticky top-0 inset-x-0 z-[9999] py-0 backdrop-blur-md shadow-md">
 		<div id="divhead" class="w-full text-center">
-			<h1 class="text-2xl font-semibold tracking-wide">Proyecto Coterena</h1>
+			<h1 class="text-2xl font-semibold tracking-wide">Proyecto Menu Responsivo</h1>
 			<p class="text-brand-teal text-sm">Prueba técnica — Menú dinámico</p>
 		</div>
 
