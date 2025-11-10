@@ -1,4 +1,4 @@
-# Proyecto COTERENA — Menú Dinámico (Prueba Técnica)
+# Proyecto Menú Dinámico (Prueba Técnica)
 **Versión:** `v2.0.0` — *Entrega final evaluable*
 https://github.com/lbettero/responsivemenu
 
@@ -65,7 +65,7 @@ Se incluyen pruebas unitarias en **PHPUnit**, scripts JavaScript separados y doc
 ## Estructura del Proyecto
 
 ```
-COTERENA/
+RESPONSIVEMENU/
 │
 ├── public/
 │   ├── assets/
@@ -133,7 +133,7 @@ COTERENA/
 1. **Clonar o descomprimir** el proyecto en tu entorno local.  
 2. Acceder al directorio raíz del proyecto:  
    ```bash
-   cd COTERENA
+   cd RESPONSIVEMENU
    ```
 3. **Iniciar un servidor local de PHP**:  
    ```bash
