@@ -17,7 +17,7 @@ function getMenuData(string $path): array
  */
 function renderMenu(): void
 {
-	$menuPath = __DIR__ . '/../../public/assets/data/menu.json';
+	$menuPath = __DIR__ . '/../../assets/data/menu.json';
 	$menuData = getMenuData($menuPath);
 	$menuError = $menuData['error'] ?? null;
 	$items = !isset($menuData['error']) ? $menuData : [];

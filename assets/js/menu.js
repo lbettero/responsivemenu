@@ -1,3 +1,5 @@
+// assets/js/menu.js
+
 function menuComponent(jsonData) {
 	// --- Normaliza una cadena eliminando acentos y convirtiendo a minúsculas ---
 	const normalize = s => (s || '').toString().toLowerCase()

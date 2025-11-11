@@ -1,6 +1,6 @@
 <?php
 	// Importa las funciones del menú principal desde la carpeta src/functions
-	require_once __DIR__ . '/../../src/functions/menu.php';
+	require_once __DIR__ . '/../functions/menu.php';
 ?>
 
 <!DOCTYPE html>
@@ -34,7 +34,7 @@
 <body class="font-sans flex flex-col min-h-screen bg-white text-gray-800">
 
 	<!-- ====================== ENCABEZADO PRINCIPAL ====================== -->
-	<header class="sticky top-0 inset-x-0 z-[9999] py-0 backdrop-blur-md shadow-md">
+	<header class="sticky top-0 inset-x-0 z-[100000] py-0 backdrop-blur-md shadow-md isolate">
 		<div id="divhead" class="w-full text-center">
 			<h1 class="text-2xl font-semibold tracking-wide">Proyecto Menu Responsivo</h1>
 			<p class="text-brand-teal text-sm">Prueba técnica — Menú dinámico</p>
@@ -42,7 +42,7 @@
 
 		<!-- ====================== NAVEGACIÓN SUPERIOR ====================== -->
 		<nav 
-			class="text-gray-800 relative"
+			class="text-gray-800 relative isolate overflow-visible"
 			x-data="{ 
 				showMenu: window.innerWidth >= 768, 
 			}" 
@@ -55,7 +55,7 @@
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-5">
 
 				<!-- ===== Botón para plegar/desplegar el menú (siempre visible en el header) ===== -->
-				<div class="flex justify-end items-center mb-2 relative z-50">
+				<div class="flex justify-end items-center mb-2 relative z-[10010]">
 					<button 
 						@click="showMenu = !showMenu" 
 						class="flex items-center gap-2 text-sm px-2 py-0 text-brand-navy hover:text-brand-teal transition bg-transparent border-none focus:outline-none"
@@ -98,7 +98,7 @@
 				<!-- ===== Botón de cierre flotante SOLO en mobile cuando el menú está abierto ===== -->
 				<button
 					x-show="showMenu"
-					class="md:hidden fixed top-3 right-4 z-[60] p-2 rounded-full border border-gray-300 bg-white/90 shadow"
+					class="md:hidden fixed top-3 right-4 z-[10020] p-2 rounded-full border border-gray-300 bg-white/90 shadow"
 					@click="showMenu = false"
 					aria-label="Cerrar menú"
 				>
@@ -113,7 +113,7 @@
 					id="topmenu"
 					x-show="showMenu" 
 					x-transition.opacity.duration.300ms
-					class="relative z-40 md:z-auto bg-white md:bg-transparent w-full md:w-auto fixed md:static inset-0 flex flex-col md:flex-row justify-center items-center md:gap-x-6 gap-y-4 md:gap-y-0 p-6 md:p-0 md:h-auto h-full overflow-y-auto"
+					class="relative md:z-auto z-[10005] bg-white md:bg-transparent w-full md:w-auto fixed md:static inset-0 flex flex-col md:flex-row justify-center items-center md:gap-x-6 gap-y-4 md:gap-y-0 p-6 md:p-0 md:h-auto h-full md:overflow-visible overflow-y-auto"
 					@click.away="if (window.innerWidth < 768) showMenu = false"
 				>
 					<?php renderMenu(); ?>
