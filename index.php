@@ -1,7 +1,7 @@
 <?php
 	// public/index.php
 	$page_title = "Menú Dinámico — Prueba Técnica";
-	include __DIR__ . '/../src/includes/header.php';
+	include __DIR__ . '/src/includes/header.php';
 ?>
 
 <!-- ====================== CONTENIDO PRINCIPAL ====================== -->
@@ -66,4 +66,4 @@
 	</div>
 </section>
 
-<?php include __DIR__ . '/../src/includes/footer.php'; ?>
+<?php include __DIR__ . '/src/includes/footer.php'; ?>

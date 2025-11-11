@@ -1,4 +1,4 @@
-// public/assets/js/dashboard.js
+// assets/js/dashboard.js
 
 // --- Envía un evento personalizado para filtrar el menú según una etiqueta (tag) ---
 function sendMenuFilter(tag) {
