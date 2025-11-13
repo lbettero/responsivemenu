@@ -31,7 +31,7 @@
 			<button type="button"
 					onclick="sendMenuFilter('Monitoreo')"
 					class="group p-5 rounded-xl bg-white border border-gray-200 shadow-sm hover:shadow-md transition-all hover:-translate-y-0.5 text-center">
-				<img src="/assets/img/001.png" alt="Monitoreo de alarmas" class="mx-auto w-14 h-14 mb-3">
+				<img src="/livia/assets/img/001.png" alt="Monitoreo de alarmas" class="mx-auto w-14 h-14 mb-3">
 				<div class="text-base font-semibold text-brand-navy group-hover:text-brand-teal">Monitoreo de Alarmas</div>
 				<p class="text-xs text-gray-500 mt-1">Ver alarmas activas y por criticidad.</p>
 			</button>
@@ -40,7 +40,7 @@
 			<button type="button"
 					onclick="sendMenuFilter('Sensores')"
 					class="group p-5 rounded-xl bg-white border border-gray-200 shadow-sm hover:shadow-md transition-all hover:-translate-y-0.5 text-center">
-				<img src="/assets/img/005.png" alt="Estado general de sensores" class="mx-auto w-14 h-14 mb-3">
+				<img src="/livia/assets/img/005.png" alt="Estado general de sensores" class="mx-auto w-14 h-14 mb-3">
 				<div class="text-base font-semibold text-brand-navy group-hover:text-brand-teal">Estado de Sensores</div>
 				<p class="text-xs text-gray-500 mt-1">Temperatura, presión y vibración.</p>
 			</button>
@@ -49,7 +49,7 @@
 			<button type="button"
 					onclick="sendMenuFilter('Mantenimiento')"
 					class="group p-5 rounded-xl bg-white border border-gray-200 shadow-sm hover:shadow-md transition-all hover:-translate-y-0.5 text-center">
-				<img src="/assets/img/006.png" alt="Alertas de mantenimiento" class="mx-auto w-14 h-14 mb-3">
+				<img src="/livia/assets/img/006.png" alt="Alertas de mantenimiento" class="mx-auto w-14 h-14 mb-3">
 				<div class="text-base font-semibold text-brand-navy group-hover:text-brand-teal">Alertas de Mantenimiento</div>
 				<p class="text-xs text-gray-500 mt-1">Predictivo y próximas revisiones.</p>
 			</button>
@@ -58,7 +58,7 @@
 			<button type="button"
 					onclick="sendMenuFilter('Flota')"
 					class="group p-5 rounded-xl bg-white border border-gray-200 shadow-sm hover:shadow-md transition-all hover:-translate-y-0.5 text-center">
-				<img src="/assets/img/003.png" alt="Mapa de flota" class="mx-auto w-14 h-14 mb-3">
+				<img src="/livia/assets/img/003.png" alt="Mapa de flota" class="mx-auto w-14 h-14 mb-3">
 				<div class="text-base font-semibold text-brand-navy group-hover:text-brand-teal">Mapa de Flota</div>
 				<p class="text-xs text-gray-500 mt-1">Unidades por zona y estado.</p>
 			</button>
