@@ -7,7 +7,7 @@ Se incluyen pruebas unitarias en **PHPUnit**, scripts JavaScript separados y doc
 
 ---
 
-## 🔧 Cambios de la versión 2.1.0
+## 🔧 Cambios de la versión 2.1.1
 
 - **Eliminación de la carpeta duplicada `public/`**: ahora los archivos se sirven directamente desde la raíz del proyecto.  
 - **Corrección de contexto de apilamiento (z-index)** en `menu.php`, `header.php` y `main.css`, asegurando que los submenús se muestren correctamente en primer plano.  
@@ -109,7 +109,7 @@ Esto genera los siguientes reportes:
 
 ## 🧱 Estado del Proyecto
 
-**Versión actual:** `v2.1.0`  
+**Versión actual:** `v2.1.1`  
 **Estado:** Implementación estable y corregida  
 
 Incluye:
@@ -125,6 +125,7 @@ Incluye:
 
 | Versión | Fecha | Descripción |
 |----------|--------|-------------|
+| **v2.1.1** | 13 de noviembre de 2025 | Corrección de las rutas de assets para asegurar el funcionamiento correcto del proyecto al ejecutarse desde la subcarpeta /livia.|
 | **v2.1.0** | 11 de noviembre de 2025 | Eliminación de carpeta `public/` duplicada y ajuste general de rutas. Corrección definitiva del bug de visibilidad de submenús mediante actualización de `header.php`, `menu.php` y `main.css`. |
 | **v2.0.0** | 10 de noviembre de 2025 | Integración del dashboard interactivo con Alpine.js, corrección de interactividad y pruebas unitarias JS. |
 | **v1.0.1** | 8 de noviembre de 2025 | Versión estable del menú dinámico con carga desde `menu.json` y estructura modular PHP. |

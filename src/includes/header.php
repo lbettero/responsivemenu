@@ -13,10 +13,10 @@
 	<!-- ===== Archivos JavaScript principales ===== -->
 
 	<!-- JS del menú dinámico -->
-	<script src="/assets/js/menu.js" defer></script>
+	<script src="/livia/assets/js/menu.js" defer></script>
 
 	<!-- JS del dashboard -->
-	<script src="/assets/js/dashboard.js" defer></script>
+	<script src="/livia/assets/js/dashboard.js" defer></script>
 
 	<!-- ===== Estilos y frameworks ===== -->
 
@@ -28,7 +28,7 @@
 
 	<!-- Fuentes y hoja de estilo personalizada -->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="/livia/assets/css/main.css">
 </head>
 
 <body class="font-sans flex flex-col min-h-screen bg-white text-gray-800">
@@ -65,13 +65,13 @@
 						<!-- Íconos de control en vista de escritorio -->
 						<img 
 							x-show="showMenu" 
-							src="/assets/img/hide.png" 
+							src="/livia/assets/img/hide.png" 
 							alt="Ocultar menú" 
 							class="hidden md:inline w-4 h-4 align-middle"
 						>
 						<img 
 							x-show="!showMenu" 
-							src="/assets/img/see.png" 
+							src="/livia/assets/img/see.png" 
 							alt="Mostrar menú" 
 							class="hidden md:inline w-4 h-4 align-middle"
 						>
